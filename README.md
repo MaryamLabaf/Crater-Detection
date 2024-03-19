@@ -1,0 +1,1 @@
+Impacts and cratering on solar system objects is a fundamental and continuing process. Recognizing and distinguishing impact craters is a difficult task even for expert observers, because of their varied sizes and vast presence. The main goal of this project is to train a neural network for crater images decetion. 
