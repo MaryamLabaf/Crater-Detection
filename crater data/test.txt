@@ -1,0 +1,19 @@
+If you are working on a wired connection within the university,
+just go to this address
+https://scc.umb.edu:8555/lab?
+
+and use password: poweradearepa
+
+I am using a custom ssl certificate, so you can safely ignore
+warnings of secure connections. Just add exception when asked.
+You might to hit the "advanced" button or something like that.
+
+If you are using WiFi or if at home, you will need to use
+ssh tunneling
+
+$ ssh -L ssh -L 8555:scc.umb.edu:8555 users.cs.umb.edu
+
+and then just go to
+https://localhost:8888/lab?
+
+same password.
